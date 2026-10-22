@@ -1,0 +1,10 @@
+# ItemShowcase3D defaults
+pedestal-material: SPRUCE_PLANKS
+glass-material: GLASS
+glass-height: 2
+item-scale: 0.8
+rotation-degrees-per-second: 12
+animate: true
+max-showcases-per-player: 20
+messages:
+  prefix: "&8[&bShowcase&8] "

@@ -1,0 +1,15 @@
+name: ItemShowcase3D
+version: 1.0.0
+main: com.vidipt.itemshowcase3d.ItemShowcase3D
+api-version: '1.21'
+author: Vidipt
+description: Create protected 3D item showcases with glass cases and pedestals.
+commands:
+  ishowcase:
+    description: Manage 3D item showcases
+    usage: /ishowcase <create|remove|list|help>
+    aliases: [showcase]
+permissions:
+  itemshowcase3d.admin:
+    description: Manage all showcases
+    default: op
