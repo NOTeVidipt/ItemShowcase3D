@@ -1,10 +1,21 @@
-# ItemShowcase3D defaults
+# ItemShowcase3D v1.1.0 defaults
 pedestal-material: SPRUCE_PLANKS
-glass-material: GLASS
+glass-material: GLASS # Set to AIR to create showcases without glass
 glass-height: 2
 item-scale: 0.8
-rotation-degrees-per-second: 12
+min-item-scale: 0.2
+max-item-scale: 2.5
+rotation-degrees-per-second: 45
 animate: true
+floating-animation: true
+particles:
+  enabled: false # Toggle with /ishowcase particles on|off
+  type: END_ROD # Per-item particle mapping is selected automatically
+  count: 3
+show-item-name: true # Item name and enchantment lines; toggle with /ishowcase text on|off
+name-height: 3.0
 max-showcases-per-player: 20
+allow-player-creation: true
+allow-owner-removal: true
 messages:
   prefix: "&8[&bShowcase&8] "

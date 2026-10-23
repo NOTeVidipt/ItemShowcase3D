@@ -1,11 +1,15 @@
 # Changelog
 
-## 1.0.0 — Initial public release
+## 1.1.0
+- Added `/ishowcase text on|off` to toggle item-name and enchantment labels.
+- Labels show enchantment names and levels; enchanted books use their stored enchantments.
+- Added `/ishowcase particles on|off` and item-aware particle effects for enchanted, gold, emerald/slime, diamond/prismarine, and Nether-themed items.
+- Expanded command suggestions for new commands, setting options, toggles, and materials.
+- Supports `AIR` as the glass material to create an open showcase.
+- Keeps Vault and the management GUI out of this release.
+- Retains showcase persistence, ownership checks, item returns, scaling, styling, and block restoration.
 
-- Added named 3D item showcases with a glass case and pedestal.
-- Added configurable item display scale and rotation animation.
-- Added create, remove, list, reload, and help commands.
-- Creating a showcase consumes one item from the held stack.
-- Added item return to the creator when a showcase is removed.
-- Added pending returns for offline creators and inventory-full handling.
-- Added protection against non-OP block breaking and explosion damage.
+## Notes
+- Particle effects are disabled by default; enable them with `/ishowcase particles on`.
+- `/ishowcase text off` hides the complete label, including enchantments, without disabling item enchantment glint.
+- Legacy showcases from versions that did not save original block states cannot recover those historical states.
